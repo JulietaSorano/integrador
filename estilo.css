@@ -358,7 +358,7 @@ header{
 
 
 
-@media (max-width:1600px){
+@media (max-width:1200px){
  nav{
    display: none;
 }
@@ -373,10 +373,10 @@ section{
     left:0%;
 
 }
-.aboutus div{
+.aboutus {
    flex-direction: column;
   
-   width: 90vh;
+   width: 100vh;
     align-items: center;
     margin-left: 40px;
 }
@@ -396,10 +396,8 @@ section{
 .items button{
     margin-bottom: 5%;
 }
-.section4{
-    display: none;
-}
-.fotter label, input{
+
+.fotter {
     flex-direction: column;
 }
 
