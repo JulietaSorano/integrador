@@ -116,15 +116,16 @@ header{
     height: 40%;
 }
          /*FIN SECTION 2 */
-         .Section3 h1{
-            margin-top: 4%;
-            font-size: 45px;
-            color: #f56f7f;
-            margin-bottom: 8%;
-            display: flex;
-            justify-content: center;
+.Section3 h1{       /* section que ofrecemos*/
+     margin-top: 4%;
+    font-size: 45px;
+    color: rgb(68, 105, 105);
+    margin-bottom: 8%;
+    display: flex;
+    justify-content: center;
         }
-        .items{
+ 
+           .items{
             display: flex;
             justify-content: center;
         }
@@ -133,12 +134,12 @@ header{
             margin-left: 10%;
         }
         .item1 img{
-            width: 50vh;
+            width: 45vh;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px #f53a50;
+            box-shadow: 0px 0px 10px rgb(68, 105, 105);
         }
         .item1 h2{
-            color: #f53A50;
+            color: rgb(68, 105, 105);
             margin-top: 15%;
             font-size: 22px;
           
@@ -150,9 +151,10 @@ header{
            color: rgb(100, 98, 98);
         }
         .item1 button{
-            margin-top: 8%;
+            margin-bottom: 10%;
+            margin-top: 6%;
             color: white;
-            background-color:  #f53A50;
+            background-color: rgb(68, 105, 105);
             width:180px;
             height: 45px;
             font-size: 14px;
@@ -165,9 +167,7 @@ header{
            
            }
            .item1 button:hover{
-            background-color: #c94970;
-           
-           
+            background-color: rgb(29, 65, 65);
            }
            .item2, .item3{
         width: 400px;
@@ -175,12 +175,12 @@ header{
         padding: 0px 20px 0px 33px;
            }
            .item2 img{
-            width: 55vh;
+            width: 50vh;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px #f5a6af;
+            box-shadow: 0px 0px 10px rgb(68, 105, 105);
            }
            .item2 h2{
-            color: #f53A50;
+            color: rgb(68, 105, 105);
             font-size: 22px;
             margin-top: 15%;
            }
@@ -192,9 +192,10 @@ header{
            }
          
            .item2 button{
-            margin-top: 8%;
+            margin-bottom: 10%;
+            margin-top: 6%;
             color: white;
-            background-color: #f53A50;
+            background-color: rgb(68, 105, 105);
             width:180px;
             height: 45px;
             font-size: 14px;
@@ -203,21 +204,18 @@ header{
             border-style: none;
             cursor:pointer;
             transition: background-color 1s;
-           
-           
            }
            .item2 button:hover{
-            background-color:#c94970;
+            background-color:rgb(29, 65, 65);
            
            }
            .item3 img{
-            width: 55vh;
+            width: 50vh;
             border-radius: 10px;
-            box-shadow: 0px 0px 10px #f5a6af;
-            margin-right: 5%;
+            box-shadow: 0px 0px 10px:rgb(68, 105, 105);
            }
            .item3 h2{
-            color: #f53A50;
+            color: rgb(68, 105, 105);
             font-size: 22px;
             margin-top: 14%;
            }
@@ -229,9 +227,10 @@ header{
            }
          
            .item3 button{
-            margin-top: 8%;
+            margin-bottom: 10%;
+            margin-top: 6%;
             color: white;
-            background-color: #f53A50;
+            background-color: rgb(68, 105, 105);
             width:180px;
             height: 45px;
             font-size: 14px;
@@ -244,11 +243,11 @@ header{
            
            }
            .item3 button:hover{
-            background-color: #c94970;
+            background-color: rgb(29, 65, 65);
            
            }
 
-           .section4 p{
+           .section4 p{  /*section calidad*/
             width: 40%;
             line-height: 112px;
              margin-bottom: 24px;
@@ -265,74 +264,72 @@ header{
              height:70vh;
              opacity: 0.6;
                 }
-                .section5{
-                    height: 100vh;
-                    display: flex;
-                    align-items: center;
-                    justify-content: flex-start;
-                    flex-direction: column;
+   .section5{   /*formulario de contacto*/
+     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+            }
+    .section5 h2{
+     color:rgb(68, 105, 105);
+    font-size: 3rem;
+    margin-top: 90px;
+    margin-bottom: 20px;
                 }
-                .section5 h2{
-                    color:rgb(68, 105, 105);
-                    font-size: 3rem;
-                    margin-top: 90px;
-                    margin-bottom: 20px;
+     input{
+         outline: none;
+        }
+    .form1{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
                 }
-                input{
-                    outline: none;
+    .form1 div{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+         width: 47%;
+        margin-bottom: 2rem;
                 }
-                .form1{
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                }
-                .form1 div{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    justify-content: center;
-                    width: 47%;
-                    margin-bottom: 2rem;
-                }
-                .input1{
-                    width: 225px;
-                    height: 40px;
-                    border: none;
-                    border-radius: 8px;
-                    height: 5vh;
-                    margin: 0.5rem 0;
-                    padding: 0 0.5rem;
-                    transition: all 1s ease;
-                    border: solid rgba(68, 105, 105, 0.6) 1px;
+    .input1{
+        width: 225px;
+        height: 40px;
+        border: none;
+        border-radius: 8px;
+        height: 5vh;
+        margin: 0.5rem 0;
+         padding: 0 0.5rem;
+         transition: all 1s ease;
+         border: solid rgba(68, 105, 105, 0.6) 1px;
                 }
                
-                .input3{
-                    width: 100%;
-                    padding: 0.5rem 0 20vh 0.5rem;
-                    border: none;
-                    border-radius: 8px;
-                    margin-top: 0.5rem;
-                    border: solid rgba(68, 105, 105, 0.6) 1px;
+    .input3{
+        width: 100%;
+        padding: 0.5rem 0 20vh 0.5rem;
+        border: none;
+        border-radius: 8px;
+         margin-top: 0.5rem;
+        border: solid rgba(68, 105, 105, 0.6) 1px;
                 }
                 
-                .section5 button{
-                    margin-top: 8%;
-                    margin-left: 30%;
-                    color: #fff;
-                    background-color: rgb(68,105,105);
-                    width:180px;
-                    height: 45px;
-                    font-size: 14px;
-                    font-weight: 700;
-                    border-radius: 10px;
-                    border-style: none;
-                    cursor:pointer;
-                    transition: background-color 1s;
-                   
-                   
+    .section5 button{
+        margin-top: 8%;
+        margin-left: 30%;
+        color: #fff;
+        background-color: rgb(68,105,105);
+        width:180px;
+        height: 45px;
+         font-size: 14px;
+        font-weight: 700;
+        border-radius: 10px;
+        border-style: none;
+        cursor:pointer;
+        transition: background-color 1s;
                    }
-                   .section5 button:hover{
-                    background-color:rgb(29, 65, 65);
+    .section5 button:hover{
+        background-color:rgb(29, 65, 65);
                    
                    }
 
