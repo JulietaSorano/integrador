@@ -33,18 +33,14 @@ header{
     display: none;
          }
  /*FIN MENU*/
- .hero{
+ .hero{           /*section HERO*/
     padding: 0 50px;
     background-image: url(foto3.jpg);
     height: 95vh;
     background-size: cover;
     background-position: center;
  }
- /*.hero img{
-    width: 225vh;
-     height: 90vh;
-     
- }*/
+ 
  .hero div{
     height: 100%;
     display: flex;
@@ -107,6 +103,7 @@ header{
 }
 .aboutus div{
     display: flex;
+    align-items: center;
    justify-content: center;
     width: 50%;
 }
@@ -393,11 +390,12 @@ section{
 }
 .items{
     flex-direction: column;
+    padding: 0;
 }
 .items button{
     margin-bottom: 10%;
 }
-.section4{
+.section4 {
     display: none;
 }
 .section5 div{
