@@ -124,6 +124,7 @@ header{
     width: 50%;
     height: 40%;
     border-radius: 20%;
+    margin-top: 5%;
 }
          /*FIN SECTION 2 */
 .Section3{
@@ -164,7 +165,7 @@ header{
         }
         .item1 button{
             margin-bottom: 10%;
-            margin-top: 6%;
+            margin-top: 15%;
             color: white;
             background-color: rgb(68, 105, 105);
             width:180px;
