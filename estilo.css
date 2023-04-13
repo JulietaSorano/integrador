@@ -93,7 +93,7 @@ header{
 .section2{       /*INICIO SECTION2 QUIENES SOMOS */
     padding: 50px 50px;
     display: flex;
-    height: 100vh;
+    height: 80vh;
     background-color: aliceblue;
 }
 .aboutus{
@@ -104,8 +104,12 @@ header{
 .aboutus div{
     display: flex;
     align-items: center;
-   justify-content: center;
+/*  justify-content: center;*/
     width: 50%;
+  margin-left: 20%;
+}
+.aboutus p{
+    line-height: 5vh;
 }
 .section2 h1{
     font-size: 45px;
@@ -114,9 +118,9 @@ header{
     justify-content: center;
     text-align: center;
     margin-bottom: 15%;
+    margin-top: 30px;
 }
 .imagen2{
-    margin-top: 10%;
     width: 50%;
     height: 40%;
     border-radius: 20%;
@@ -371,26 +375,33 @@ section{
 
 }
 .aboutus {
-   flex-direction: column;
-   left: 0;
     width: 100vh;
-  /*  margin-left: 40px;*/
+   flex-direction: column;
+    width: 100vh;
+  margin-left: 0;
     align-items: start;
 
 }
-
-.items img {
-    width: 30vh;
+.aboutus div{
+    margin: 0 5%;
+    align-content: start;
 }
+
+
 .imagen2{
     display:flex ;
   justify-content: center;
-    width: 60vh;
+    width: 50vh;
     
 }
 .items{
     flex-direction: column;
     padding: 0;
+}
+.items img {
+    width: 30vh;
+
+
 }
 .items button{
     margin-bottom: 10%;
