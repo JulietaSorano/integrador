@@ -265,7 +265,8 @@ header{
              opacity: 0.6;
                 }
    .section5{   /*formulario de contacto*/
-     height: 100vh;
+     background-color: aliceblue;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -350,7 +351,7 @@ header{
 
 
 
-@media  (max-width:1200px){
+@media (max-width:1200px){
  nav{
     display: none;
     }
@@ -369,6 +370,9 @@ section{
     align-items: start;
     margin-left: 40px;
 }
+.items img {
+    width: 30vh;
+}
 .imagen2{
     display:flex ;
   justify-content: center;
@@ -383,6 +387,9 @@ section{
 }
 .section4{
     display: none;
+}
+.fotter label, input{
+    flex-direction: column;
 }
 
 
