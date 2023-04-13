@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+   font-family: sans-serif;
+}
+header{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 10vh;
+    margin-bottom: 15px;
+    font-weight: 600; 
+}
+header img{
+    width: 20vh;
+}
+header a{
+    margin: 10px;
+}
